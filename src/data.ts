@@ -30,7 +30,7 @@ export const games: Game[] = [
       { source: "/images/games/NightFall/cover.png", type: MediaType.Image },
      // { source: "https://www.youtube.com/embed/dQw4w9WgXcQ", type: MediaType.YouTube },
       { source: "/images/games/NightFall/Nightfall Screenshot 2025.08.27 - 00.15.25.77.png", type: MediaType.Image },
-      { source: "images/games/NightFall/Nightfall Screenshot 2025.08.27 - 00.17.39.07.png", type: MediaType.Image },
+      { source: "/images/games/NightFall/Nightfall Screenshot 2025.08.27 - 00.17.39.07.png", type: MediaType.Image },
       { source: "/images/games/NightFall/Nightfall Screenshot 2025.08.27 - 00.15.27.71.png", type: MediaType.Image },
     ],
   },
@@ -81,11 +81,11 @@ export const games: Game[] = [
       { source: LinkImageSource.ItchIo, url: "https://YOUR_ITCH.itch.io/GAME_NAME" },
     ],
     media: [
-      { source: "images/games/HungryBob/Hungry Bob Screenshot 2025.08.26 - 15.51.12.05.png", type: MediaType.Image },
+      { source: "/images/games/HungryBob/Hungry Bob Screenshot 2025.08.26 - 15.51.12.05.png", type: MediaType.Image },
       { source: "https://www.youtube.com/embed/5s8Ht5xwv5k?si=TfE-ynIouNM9ZPhn", type: MediaType.YouTube },
-      { source: "images/games/HungryBob/Hungry Bob Screenshot 2025.08.26 - 15.50.45.71.png", type: MediaType.Image },
-      { source: "images/games/HungryBob/Hungry Bob Screenshot 2025.08.26 - 15.45.55.99.png", type: MediaType.Image },
-      { source: "images/games/HungryBob/Hungry Bob Screenshot 2025.08.26 - 15.50.54.21.png", type: MediaType.Image },
+      { source: "/images/games/HungryBob/Hungry Bob Screenshot 2025.08.26 - 15.50.45.71.png", type: MediaType.Image },
+      { source: "/images/games/HungryBob/Hungry Bob Screenshot 2025.08.26 - 15.45.55.99.png", type: MediaType.Image },
+      { source: "/images/games/HungryBob/Hungry Bob Screenshot 2025.08.26 - 15.50.54.21.png", type: MediaType.Image },
     ],
   },
   {
@@ -99,11 +99,11 @@ export const games: Game[] = [
       { source: LinkImageSource.ItchIo, url: "https://YOUR_ITCH.itch.io/GAME_NAME" },
     ],
     media: [
-      { source: "images/games/WarTanks/Panzer Commander Screenshot 2025.08.25 - 04.03.57.38.png", type: MediaType.Image },
+      { source: "/images/games/WarTanks/Panzer Commander Screenshot 2025.08.25 - 04.03.57.38.png", type: MediaType.Image },
       { source: "https://www.youtube.com/embed/Cfhadg4mEzE?si=CIC61BQffjNhttHr", type: MediaType.YouTube },
-      { source: "images/games/WarTanks/Panzer Commander Screenshot 2025.08.25 - 04.06.36.29.png", type: MediaType.Image },
-      { source: "images/games/WarTanks/Panzer Commander Screenshot 2025.08.25 - 04.04.29.59.png", type: MediaType.Image },
-      { source: "images/games/WarTanks/Panzer Commander Screenshot 2025.08.25 - 04.04.52.38.png", type: MediaType.Image },
+      { source: "/images/games/WarTanks/Panzer Commander Screenshot 2025.08.25 - 04.06.36.29.png", type: MediaType.Image },
+      { source: "/images/games/WarTanks/Panzer Commander Screenshot 2025.08.25 - 04.04.29.59.png", type: MediaType.Image },
+      { source: "/images/games/WarTanks/Panzer Commander Screenshot 2025.08.25 - 04.04.52.38.png", type: MediaType.Image },
       
     ],
   },
@@ -136,11 +136,11 @@ export const games: Game[] = [
       { source: LinkImageSource.ItchIo, url: "https://YOUR_ITCH.itch.io/GAME_NAME" },
     ],
     media: [
-      { source: "images/games/FightorFlight/Fight Or Flight Screenshot 2025.08.26 - 19.35.51.08.png", type: MediaType.Image },
+      { source: "/images/games/FightorFlight/Fight Or Flight Screenshot 2025.08.26 - 19.35.51.08.png", type: MediaType.Image },
       { source: "https://www.youtube.com/embed/98HLUWlpuC8?si=OxxzPzdAvRUSxJk5", type: MediaType.YouTube },
-      { source: "images/games/FightorFlight/Fight Or Flight Screenshot 2025.08.26 - 18.57.14.44.png", type: MediaType.Image },
-      { source: "images/games/FightorFlight/Fight Or Flight Screenshot 2025.08.26 - 19.35.58.68.png", type: MediaType.Image },
-      { source: "images/games/FightorFlight/Fight Or Flight Screenshot 2025.08.26 - 19.36.06.48.png", type: MediaType.Image },
+      { source: "/images/games/FightorFlight/Fight Or Flight Screenshot 2025.08.26 - 18.57.14.44.png", type: MediaType.Image },
+      { source: "/images/games/FightorFlight/Fight Or Flight Screenshot 2025.08.26 - 19.35.58.68.png", type: MediaType.Image },
+      { source: "/images/games/FightorFlight/Fight Or Flight Screenshot 2025.08.26 - 19.36.06.48.png", type: MediaType.Image },
     ],
   },
   {
@@ -154,9 +154,9 @@ export const games: Game[] = [
       { source: LinkImageSource.ItchIo, url: "https://YOUR_ITCH.itch.io/GAME_NAME" },
     ],
     media: [
-      { source: "images/games/Pong/Pong Screenshot 2025.08.25 - 01.49.48.26.png", type: MediaType.Image },
+      { source: "/images/games/Pong/Pong Screenshot 2025.08.25 - 01.49.48.26.png", type: MediaType.Image },
       { source: "https://www.youtube.com/embed/z5leJ8hyE-c?si=PLBp8FNwuUbGZX82", type: MediaType.YouTube },
-      { source: "images/games/Pong/Pong Screenshot 2025.08.25 - 01.49.38.76.png", type: MediaType.Image },
+      { source: "/images/games/Pong/Pong Screenshot 2025.08.25 - 01.49.38.76.png", type: MediaType.Image },
     ],
   },
   {
@@ -170,11 +170,11 @@ export const games: Game[] = [
       { source: LinkImageSource.ItchIo, url: "https://YOUR_ITCH.itch.io/GAME_NAME" },
     ],
     media: [
-      { source: "images/games/PizzaCab/Pizzacab Screenshot 2025.08.25 - 00.28.47.67.png", type: MediaType.Image },
+      { source: "/images/games/PizzaCab/Pizzacab Screenshot 2025.08.25 - 00.28.47.67.png", type: MediaType.Image },
       { source: "https://www.youtube.com/embed/ObqF8FC_A58?si=1sTlc7TOWHtISrnz&amp;start=8", type: MediaType.YouTube },
-      { source: "images/games/PizzaCab/Pizzacab Screenshot 2025.08.25 - 00.28.56.81.png", type: MediaType.Image },
-      { source: "images/games/PizzaCab/Pizzacab Screenshot 2025.08.25 - 00.26.04.73.png", type: MediaType.Image },
-      //{ source: "/images/games/RocketLauncher3D/Screenshot_4.png", type: MediaType.Image },
+      { source: "/images/games/PizzaCab/Pizzacab Screenshot 2025.08.25 - 00.28.56.81.png", type: MediaType.Image },
+      { source: "/images/games/PizzaCab/Pizzacab Screenshot 2025.08.25 - 00.26.04.73.png", type: MediaType.Image },
+      
     ],
   },
 ];
