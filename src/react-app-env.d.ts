@@ -1,1 +1,1 @@
-/// <reference types="react-scripts" />
+REACT_APP_WA_NUMBER=918136812080

@@ -74,11 +74,13 @@ const ContactMe: React.FC = () => {
   const [name, setName] = useState('');
   const [message, setMessage] = useState('');
 
-  const handleSubmit = () => {
-    const formattedMessage = `Hey my name is ${name}\n${message}`;
-    const url = `https://wa.me/${process.env.REACT_APP_WA_NUMBER}?text=${encodeURIComponent(formattedMessage)}`;
-    window.open(url, '_blank');
-  };
+const handleSubmit = () => {
+  const formattedMessage = `Hey my name is ${name}\n${message}`;
+  const phoneNumber = process.env.REACT_APP_WA_NUMBER || "918136812080"; 
+  const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(formattedMessage)}`;
+  window.open(url, '_blank');
+};
+
 
   return (
     <CenterContainer>
