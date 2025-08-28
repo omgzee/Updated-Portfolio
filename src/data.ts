@@ -28,10 +28,12 @@ export const games: Game[] = [
     ],
     media: [
       { source: "/images/games/NightFall/cover.png", type: MediaType.Image },
-     // { source: "https://www.youtube.com/embed/dQw4w9WgXcQ", type: MediaType.YouTube },
-      { source: "/images/games/NightFall/Nightfall Screenshot 2025.08.27 - 00.15.25.77.png", type: MediaType.Image },
-      { source: "/images/games/NightFall/Nightfall Screenshot 2025.08.27 - 00.17.39.07.png", type: MediaType.Image },
-      { source: "/images/games/NightFall/Nightfall Screenshot 2025.08.27 - 00.15.27.71.png", type: MediaType.Image },
+      { source: "https://www.youtube.com/embed/K-1Y1czYeeo?si=2E-M7ZkNEa_uRfe_", type: MediaType.YouTube },
+      { source: "/images/games/NightFall/new-1.png", type: MediaType.Image },
+      { source: "/images/games/NightFall/new-2.png", type: MediaType.Image },
+      { source: "/images/games/NightFall/new-3.png", type: MediaType.Image },
+      { source: "/images/games/NightFall/Nightfall Screenshot 2025.08.29 - 02.14.23.38.png", type: MediaType.Image },
+      
     ],
   },
   {
@@ -110,7 +112,7 @@ export const games: Game[] = [
   {
     name: "Chains of Freedom (PC)",
     description: "A narrative-driven adventure game created in under 72 hours for a game jam hosted by Zimension3D in partnership with GDAI. Set during British colonial rule, the story follows a middle-aged man living in a farmhouse near a prison where freedom fighters were held captive. The player’s mission is to break into the prison, collect letters of hope written by the freedom fighters, and deliver them to the community, symbolizing the fight for freedom.",
-    genres: ["Arcade", "Endless Runner", "Casual"],
+    genres: ["0pen World", "Narrative"],
     platforms: [Platform.Windows],
     engine: GameEngine.Zimension3D,
     links: [
