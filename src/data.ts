@@ -150,7 +150,7 @@ export const games: Game[] = [
     description: "A 2 player pong game with an added score and ball changing speeds according to the amount of hits.",
     genres: ["2D", "Arcade", "Skill"],
     platforms: [Platform.Windows],
-    engine: GameEngine.Zimension3D,
+    engine: GameEngine.Unity,
     links: [
       { source: LinkImageSource.Github, url: "https://github.com/YOUR_REPO" },
       { source: LinkImageSource.ItchIo, url: "https://YOUR_ITCH.itch.io/GAME_NAME" },
@@ -166,7 +166,7 @@ export const games: Game[] = [
     description: "A Top Down 2D pizza delivery game where you collect and deliver pizzas to customers with scores and a timer system to beat!.",
     genres: ["2D", "Casual",],
     platforms: [Platform.Windows],
-    engine: GameEngine.Zimension3D,
+    engine: GameEngine.Unity,
     links: [
       { source: LinkImageSource.Github, url: "https://github.com/YOUR_REPO" },
       { source: LinkImageSource.ItchIo, url: "https://YOUR_ITCH.itch.io/GAME_NAME" },
