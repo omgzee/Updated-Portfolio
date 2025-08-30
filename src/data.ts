@@ -4,7 +4,7 @@ import { AboutMeData, Game, GameEngine, LinkImageSource, MediaType, Platform } f
 export const PersonalInfo: AboutMeData = {
   name: "Zeeshan A.Raoof",
   role: "Game Developer | Unity & C#",
-  introduction: "Hi, I’m Zeeshan — a Unity Game Developer passionate about crafting immersive and engaging gameplay experiences.",
+  introduction: "Unity Game Developer passionate about building immersive and engaging gameplay experiences",
   description: "Hey, I’m Zee! Gaming has been a big part of my life, and turning that passion into making games has been the most rewarding step I’ve taken. Over the past 1.5+ years, I’ve built projects across different genres—exploring different mechanics and styles to sharpen my skills. Along the way, I earned a Professional Diploma in Game Development from Big Boy School of Gaming, which gave me a strong foundation in design and programming. My goal now is to keep pushing my creativity, collaborate with other passionate developers, and bring players exciting, memorable experiences.",
   image: `${process.env.PUBLIC_URL}/images/Profile.jpg`,
   cvUri: `${process.env.PUBLIC_URL}/files/Zeeshan's-Resume.pdf`,
