@@ -7,7 +7,7 @@ export const PersonalInfo: AboutMeData = {
   introduction: "Hi, I’m Zeeshan — a Unity Game Developer passionate about crafting immersive and engaging gameplay experiences.",
   description: "Hey, I’m Zee! Gaming has been a big part of my life, and turning that passion into making games has been the most rewarding step I’ve taken. Over the past 1.5+ years, I’ve built projects across different genres—exploring different mechanics and styles to sharpen my skills. Along the way, I earned a Professional Diploma in Game Development from Big Boy School of Gaming, which gave me a strong foundation in design and programming. My goal now is to keep pushing my creativity, collaborate with other passionate developers, and bring players exciting, memorable experiences.",
   image: `${process.env.PUBLIC_URL}/images/Profile.jpg`,
-  cvUri: `${process.env.PUBLIC_URL}/files/YOUR_CV.pdf`,
+  cvUri: `${process.env.PUBLIC_URL}/files/Zeeshan's-Resume.pdf`,
   links: {
     github: "https://github.com/omgzee",
     itchIO: "https://omgzee.itch.io",
@@ -23,8 +23,8 @@ export const games: Game[] = [
     platforms: [Platform.Windows],
     engine: GameEngine.Unity,
     links: [
-      { source: LinkImageSource.Github, url: "https://github.com/YOUR_REPO" },
-      { source: LinkImageSource.ItchIo, url: "https://YOUR_ITCH.itch.io/GAME_NAME" },
+      { source: LinkImageSource.Github, url: "https://github.com/omgzee/Nightfall-ZombieFPS" },
+      { source: LinkImageSource.ItchIo, url: "https://omgzee.itch.io/night-fall-survival-fps" },
     ],
     media: [
       { source: "/images/games/NightFall/cover.png", type: MediaType.Image },
@@ -43,8 +43,8 @@ export const games: Game[] = [
     platforms: [Platform.Android],
     engine: GameEngine.Unity,
     links: [
-      { source: LinkImageSource.Github, url: "https://github.com/YOUR_REPO" },
-      { source: LinkImageSource.ItchIo, url: "https://YOUR_ITCH.itch.io/GAME_NAME" },
+      { source: LinkImageSource.Github, url: "https://github.com/omgzee/Blade-Spiral" },
+      { source: LinkImageSource.ItchIo, url: "https://omgzee.itch.io/blade-spiral" },
     ],
     media: [
       { source: "/images/games/BladeSpiral/Screenshot_20250826-223503_Blade Spiral.jpg", type: MediaType.Image },
@@ -61,8 +61,8 @@ export const games: Game[] = [
     platforms: [Platform.Windows],
     engine: GameEngine.Unity,
     links: [
-      { source: LinkImageSource.Github, url: "https://github.com/YOUR_REPO" },
-      { source: LinkImageSource.ItchIo, url: "https://YOUR_ITCH.itch.io/GAME_NAME" },
+      { source: LinkImageSource.Github, url: "https://github.com/omgzee/Rocket-Launcher3D" },
+      { source: LinkImageSource.ItchIo, url: "https://omgzee.itch.io/rocket-launcher-3d" },
     ],
     media: [
       { source: "/images/games/RocketLauncher3D/Rocketlauncher3d Screenshot 2025.08.26 - 23.11.39.61.png", type: MediaType.Image },
@@ -79,8 +79,8 @@ export const games: Game[] = [
     platforms: [Platform.Android,Platform.Windows],
     engine: GameEngine.Unity,
     links: [
-      { source: LinkImageSource.Github, url: "https://github.com/YOUR_REPO" },
-      { source: LinkImageSource.ItchIo, url: "https://YOUR_ITCH.itch.io/GAME_NAME" },
+      { source: LinkImageSource.Github, url: "https://github.com/omgzee/Hungry-Bob" },
+      { source: LinkImageSource.ItchIo, url: "https://omgzee.itch.io/hungry-bob" },
     ],
     media: [
       { source: "/images/games/HungryBob/Hungry Bob Screenshot 2025.08.26 - 15.51.12.05.png", type: MediaType.Image },
@@ -97,8 +97,8 @@ export const games: Game[] = [
     platforms: [Platform.Windows],
     engine: GameEngine.Unity,
     links: [
-      { source: LinkImageSource.Github, url: "https://github.com/YOUR_REPO" },
-      { source: LinkImageSource.ItchIo, url: "https://YOUR_ITCH.itch.io/GAME_NAME" },
+      { source: LinkImageSource.Github, url: "https://github.com/omgzee/War-Tanks" },
+      { source: LinkImageSource.ItchIo, url: "https://omgzee.itch.io/war-tanks" },
     ],
     media: [
       { source: "/images/games/WarTanks/Panzer Commander Screenshot 2025.08.25 - 04.03.57.38.png", type: MediaType.Image },
@@ -116,7 +116,6 @@ export const games: Game[] = [
     platforms: [Platform.Windows],
     engine: GameEngine.Zimension3D,
     links: [
-      { source: LinkImageSource.Github, url: "https://github.com/YOUR_REPO" },
       { source: LinkImageSource.ItchIo, url: "https://www.zimension3d.com/shrt/qZxrOT" },
     ],
     media: [
@@ -134,8 +133,8 @@ export const games: Game[] = [
     platforms: [Platform.Windows],
     engine: GameEngine.Unity,
     links: [
-      { source: LinkImageSource.Github, url: "https://github.com/YOUR_REPO" },
-      { source: LinkImageSource.ItchIo, url: "https://YOUR_ITCH.itch.io/GAME_NAME" },
+      { source: LinkImageSource.Github, url: "https://github.com/omgzee/FightorFlight" },
+      { source: LinkImageSource.ItchIo, url: "https://omgzee.itch.io/fight-or-flight" },
     ],
     media: [
       { source: "/images/games/FightorFlight/Fight Or Flight Screenshot 2025.08.26 - 19.35.51.08.png", type: MediaType.Image },
@@ -152,8 +151,8 @@ export const games: Game[] = [
     platforms: [Platform.Windows],
     engine: GameEngine.Unity,
     links: [
-      { source: LinkImageSource.Github, url: "https://github.com/YOUR_REPO" },
-      { source: LinkImageSource.ItchIo, url: "https://YOUR_ITCH.itch.io/GAME_NAME" },
+      { source: LinkImageSource.Github, url: "https://github.com/omgzee/Pong" },
+      { source: LinkImageSource.ItchIo, url: "https://omgzee.itch.io/pong" },
     ],
     media: [
       { source: "/images/games/Pong/Pong Screenshot 2025.08.25 - 01.49.48.26.png", type: MediaType.Image },
@@ -168,8 +167,8 @@ export const games: Game[] = [
     platforms: [Platform.Windows],
     engine: GameEngine.Unity,
     links: [
-      { source: LinkImageSource.Github, url: "https://github.com/YOUR_REPO" },
-      { source: LinkImageSource.ItchIo, url: "https://YOUR_ITCH.itch.io/GAME_NAME" },
+      { source: LinkImageSource.Github, url: "https://github.com/omgzee/Pizza-Taxi" },
+      { source: LinkImageSource.ItchIo, url: "https://omgzee.itch.io/pizza-taxi-2d" },
     ],
     media: [
       { source: "/images/games/PizzaCab/Pizzacab Screenshot 2025.08.25 - 00.28.47.67.png", type: MediaType.Image },

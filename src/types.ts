@@ -5,6 +5,7 @@ export enum LinkImageSource {
 
 export enum Platform {
   Windows = "Windows",
+  Web="Web",
   Mac = "Mac",
   Linux = "Linux",
   iOS = "iOS",
