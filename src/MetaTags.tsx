@@ -2,35 +2,38 @@ import React from "react";
 import { Helmet } from "react-helmet-async";
 import { AboutMeData } from "./types"; // adjust import path if needed
 
-// Define props
 type Props = {
   info: AboutMeData;
 };
 
 const MetaTags: React.FC<Props> = ({ info }) => {
+  const pageTitle = `${info.name} | ${info.role ?? "Portfolio"}`;
+  const pageDescription = info.introduction || `${info.name}'s personal website and projects.`;
+  const imageUrl = "/preview.jpg"; // stored in public folder
+  const siteUrl = "https://zeeshan.world";
+
   return (
     <Helmet>
-      <title>{info.name}'s Portfolio</title>
-      <meta name="description" content={info.introduction} />
+      {/* Title + Description */}
+      <title>{pageTitle}</title>
+      <meta name="description" content={pageDescription} />
 
       {/* Open Graph tags */}
-      <meta property="og:title" content={`${info.name}'s Portfolio`} />
-      <meta property="og:description" content={info.introduction} />
-      <meta
-        property="og:image"
-        content={`${process.env.PUBLIC_URL}/preview.jpg`}
-      />
-      <meta property="og:url" content="https://zeeshan.world" />
+      <meta property="og:title" content={pageTitle} />
+      <meta property="og:description" content={pageDescription} />
+      <meta property="og:image" content={imageUrl} />
+      <meta property="og:url" content={siteUrl} />
       <meta property="og:type" content="website" />
 
       {/* Twitter card */}
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content={`${info.name}'s Portfolio`} />
-      <meta name="twitter:description" content={info.introduction} />
-      <meta
-        name="twitter:image"
-        content={`${process.env.PUBLIC_URL}/preview.jpg`}
-      />
+      <meta name="twitter:title" content={pageTitle} />
+      <meta name="twitter:description" content={pageDescription} />
+      <meta name="twitter:image" content={imageUrl} />
+
+      {/* Extra for SEO */}
+      <meta name="author" content={info.name} />
+      <meta name="keywords" content={`${info.name}, portfolio, ${info.role ?? "developer"}`} />
     </Helmet>
   );
 };
