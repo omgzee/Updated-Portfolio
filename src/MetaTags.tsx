@@ -9,7 +9,7 @@ type Props = {
 const MetaTags: React.FC<Props> = ({ info }) => {
   const pageTitle = `${info.name} | ${info.role ?? "Portfolio"}`;
   const pageDescription = info.introduction || `${info.name}'s personal website and projects.`;
-  const imageUrl = "https://zeeshan.world/images/preview.jpg";
+  const imageUrl = "https://zeeshan.world/preview.jpg";
   const siteUrl = "https://zeeshan.world";
 
   return (
